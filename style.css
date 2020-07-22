@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: rgb(2, 196, 76);
+  color: #fff;
+  height: 80vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+
+
+.menu-link{
+  padding: 10px 0;
+}
+
+.menu-link a{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  margin: 50px 14px;
+}
+
+.h-text{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
+
+.title-box {
+  margin-bottom: 4rem;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: rgb(2, 196, 76);
+}
+
+.footers{
+  background-color: rgb(2, 196, 76);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  padding-top: 80px;
+  color: #fff;
+}
+
+.social-icons i {
+  margin: 20px 8px;
+  font-size: 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(2, 196, 76);
+  border-radius: 50%;
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.social-icons i:hover {
+  margin: 20px 8px;
+  font-size: 20px;
+  background: rgb(2, 196, 76);
+  color: rgb(255, 255, 255);
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+footer {
+  background-color: #eee;
+  text-align: left;
+  color: #1e1e1e;
+  padding-bottom: 15px;
+}
+
+footer .copyright {
+  margin-bottom: .3rem;
+}
+
+footer .credits {
+  margin-bottom: 0;
+}
+
+footer .credits a {
+  color: rgb(2, 196, 76);
+}
+
+.pro-box{
+  height: 200px;
+  position: relative;
+}
+
+.pro-dat{
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  background-color: #eee;
+  width: 92%;
+  opacity: 0;
+  transition-duration: 1000;
+  color: rgb(2, 196, 76);
+}
+
+.pro-dat p{
+  margin: 0;
+}
+
+.pro-dat a{
+  padding: 1px 40px;
+  background-color: rgb(2, 196, 76);
+  color: #fff;
+}
+
+.pro-dat a:hover{
+  color: rgb(2, 196, 76);
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid rgb(2, 196, 76);
+}
+
+.pro-box:hover .pro-dat{
+
+  opacity: 1;
+}
+
+
